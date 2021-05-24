@@ -1,0 +1,22 @@
+2021-05-24T07:54:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_stock_quatity() in D:\git\wopress_5x.git\wp-content\plugins\woocommerce\templates\content-product.php:59
+Stack trace:
+#0 D:\git\wopress_5x.git\wp-includes\template.php(732): require()
+#1 D:\git\wopress_5x.git\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\git\\wopress_...', false)
+#2 D:\git\wopress_5x.git\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#3 D:\git\wopress_5x.git\wp-includes\template-loader.php(106): include('D:\\git\\wopress_...')
+#4 D:\git\wopress_5x.git\wp-blog-header.php(19): require_once('D:\\git\\wopress_...')
+#5 D:\git\wopress_5x.git\index.php(17): require('D:\\git\\wopress_...')
+#6 {main}
+  thrown in D:\git\wopress_5x.git\wp-content\plugins\woocommerce\templates\content-product.php on line 59
+
+2021-05-24T07:55:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_stock_quatity() in D:\git\wopress_5x.git\wp-content\plugins\woocommerce\templates\content-product.php:50
+Stack trace:
+#0 D:\git\wopress_5x.git\wp-includes\template.php(732): require()
+#1 D:\git\wopress_5x.git\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\git\\wopress_...', false)
+#2 D:\git\wopress_5x.git\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#3 D:\git\wopress_5x.git\wp-includes\template-loader.php(106): include('D:\\git\\wopress_...')
+#4 D:\git\wopress_5x.git\wp-blog-header.php(19): require_once('D:\\git\\wopress_...')
+#5 D:\git\wopress_5x.git\index.php(17): require('D:\\git\\wopress_...')
+#6 {main}
+  thrown in D:\git\wopress_5x.git\wp-content\plugins\woocommerce\templates\content-product.php on line 50
+
